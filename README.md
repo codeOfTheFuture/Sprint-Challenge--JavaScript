@@ -29,14 +29,27 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+   .forEach does not return anything it just calls a function for each element on an array.
+   .map returns a new array of the same length that calls a function for each item on the array
 
 2. What is the difference between a function and a method?
 
+A method is a function that is a property of an object where as a function is just a function on its own.
+
 3. What is closure?
+   closure makes variables that are declared inside a function private to that function and cannot be accessed from outside of that functions scope while variables declared outside of that functions scope can be accessed from inside the function.
 
 4. Describe the four rules of the 'this' keyword.
+   Global this - this keyword is referring to the window object.
+
+Implicit this - when a method is called on an object this keyword refers to the object that preceeds the dot.
+
+New this - this keyword refers to a new object that was created from a constructor function using the new keyword.
+
+Explicit this - when .call or .apply methods are used on a function it can change the context of which object this keyword refers to.
 
 5. Why do we need super() in an extended class?
+   super() is used to access the properties and methods from a parent class.
 
 ## Project Set up
 
@@ -73,19 +86,19 @@ Test your knowledge of objects and arrays.
 
 This challenge takes a look at callbacks and closures as well as scope.
 
-- [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+- [x] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
 
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
 
-- [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+- [x] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
 
-- [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+- [x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
